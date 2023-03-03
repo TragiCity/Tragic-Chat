@@ -23,8 +23,20 @@ timeout = 100
 buffer_size = 16000
 ```
 
-# Установка
+# Установка для Windows
+- Запустить файл Tragic City.exe
+
+# Установка для Linux
+```sh
+
+git clone https://github.com/TragiCity/Tragic-Chat
+cd Tragic-Chat
+python3.10 Tragic Chat.py
+```
+
+# Сборка файла с использованием pyinstaller
 ```sh
 git clone https://github.com/TragiCity/Tragic-Chat
-python3.10 Tragic Chat.py
+cd Tragic-Chat
+pyinstaller --onefile --console --icon=icon.ico "Tragic Chat.py"
 ```
